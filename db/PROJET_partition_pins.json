@@ -1,0 +1,321 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CarteLed0",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed1",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed2",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed3",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed4",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed5",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed6",
+					"strict" : false
+				},
+				{
+					"name" : "CarteLed7",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5",
+					"strict" : false
+				},
+				{
+					"name" : "HEX6",
+					"strict" : false
+				},
+				{
+					"name" : "Buzzer",
+					"strict" : false
+				},
+				{
+					"name" : "LEDTEST",
+					"strict" : false
+				},
+				{
+					"name" : "Trig_Out_UltraSon",
+					"strict" : false
+				},
+				{
+					"name" : "ser",
+					"strict" : false
+				},
+				{
+					"name" : "rclk",
+					"strict" : false
+				},
+				{
+					"name" : "srclk",
+					"strict" : false
+				},
+				{
+					"name" : "srclr",
+					"strict" : false
+				},
+				{
+					"name" : "GPIOMAINTENANCE",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[13]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[12]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[11]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[10]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[9]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[8]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[7]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX15[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[13]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[12]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[11]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[10]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[9]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[8]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[7]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiHEX24[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton4",
+					"strict" : false
+				},
+				{
+					"name" : "SWS3",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton5",
+					"strict" : false
+				},
+				{
+					"name" : "SWS4",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton3",
+					"strict" : false
+				},
+				{
+					"name" : "SWS2",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton2",
+					"strict" : false
+				},
+				{
+					"name" : "SWS1",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton6",
+					"strict" : false
+				},
+				{
+					"name" : "SWS5",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton7",
+					"strict" : false
+				},
+				{
+					"name" : "SWS6",
+					"strict" : false
+				},
+				{
+					"name" : "Bouton1",
+					"strict" : false
+				},
+				{
+					"name" : "SWS0",
+					"strict" : false
+				},
+				{
+					"name" : "Key0",
+					"strict" : false
+				},
+				{
+					"name" : "Key1",
+					"strict" : false
+				},
+				{
+					"name" : "SWS7",
+					"strict" : false
+				},
+				{
+					"name" : "ResetUltraSound",
+					"strict" : false
+				},
+				{
+					"name" : "EchoUltraSound",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,212 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 304 400)
+	(text "animation_porte" (rect 5 0 102 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 363 24 380)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 27 44 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "SWS0" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS0" (rect 21 43 57 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "SWS1" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS1" (rect 21 59 57 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "SWS2" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS2" (rect 21 75 57 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "SWS3" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS3" (rect 21 91 57 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "SWS4" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS4" (rect 21 107 57 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "SWS5" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS5" (rect 21 123 57 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "SWS6" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS6" (rect 21 139 57 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "SWS7" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SWS7" (rect 21 155 57 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "RDC" (rect 0 0 25 19)(font "Intel Clear" (font_size 8)))
+		(text "RDC" (rect 21 171 46 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "etage1" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage1" (rect 21 187 62 206)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "etage2" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage2" (rect 21 203 62 222)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "etage3" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage3" (rect 21 219 62 238)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "etage4" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage4" (rect 21 235 62 254)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "etage5" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage5" (rect 21 251 62 270)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "etage6" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage6" (rect 21 267 62 286)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 272)(pt 16 272))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "etage7" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "etage7" (rect 21 283 62 302)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 288)(pt 16 288))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "MODEMAINTENANCE" (rect 0 0 126 19)(font "Intel Clear" (font_size 8)))
+		(text "MODEMAINTENANCE" (rect 21 299 147 318)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 304)(pt 16 304))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "ResetUltraSound" (rect 0 0 100 19)(font "Intel Clear" (font_size 8)))
+		(text "ResetUltraSound" (rect 21 315 121 334)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 320)(pt 16 320))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "EchoUltraSound" (rect 0 0 94 19)(font "Intel Clear" (font_size 8)))
+		(text "EchoUltraSound" (rect 21 331 115 350)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 336)(pt 16 336))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "HEX15[13..0]" (rect 0 0 80 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX15[13..0]" (rect 187 27 267 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 32)(pt 272 32)(line_width 3))
+	)
+	(port
+		(pt 288 48)
+		(output)
+		(text "HEX24[13..0]" (rect 0 0 80 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX24[13..0]" (rect 187 43 267 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 48)(pt 272 48)(line_width 3))
+	)
+	(port
+		(pt 288 64)
+		(output)
+		(text "HEX3[6..0]" (rect 0 0 63 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX3[6..0]" (rect 204 59 267 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 64)(pt 272 64)(line_width 3))
+	)
+	(port
+		(pt 288 80)
+		(output)
+		(text "STOP" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
+		(text "STOP" (rect 233 75 267 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 80)(pt 272 80))
+	)
+	(port
+		(pt 288 96)
+		(output)
+		(text "LEDTEST" (rect 0 0 55 19)(font "Intel Clear" (font_size 8)))
+		(text "LEDTEST" (rect 212 91 267 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 96)(pt 272 96))
+	)
+	(port
+		(pt 288 112)
+		(output)
+		(text "Trig_Out_UltraSon" (rect 0 0 110 19)(font "Intel Clear" (font_size 8)))
+		(text "Trig_Out_UltraSon" (rect 157 107 267 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 288 112)(pt 272 112))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 368))
+	)
+)

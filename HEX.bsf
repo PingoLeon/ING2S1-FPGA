@@ -1,0 +1,156 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 184 240)
+	(text "HEX" (rect 5 0 29 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 203 24 220)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 27 44 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "LED00" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED00" (rect 21 43 61 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LED01" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED01" (rect 21 59 61 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "LED02" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED02" (rect 21 75 61 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "LED03" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED03" (rect 21 91 61 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "LED04" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED04" (rect 21 107 61 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "LED05" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED05" (rect 21 123 61 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "LED06" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED06" (rect 21 139 61 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "LED07" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "LED07" (rect 21 155 61 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "CLKBUZZER" (rect 0 0 73 19)(font "Intel Clear" (font_size 8)))
+		(text "CLKBUZZER" (rect 21 171 94 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "HEX0" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX0" (rect 114 27 147 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "HEX1" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX1" (rect 114 43 147 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "HEX2" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX2" (rect 114 59 147 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 64)(pt 152 64))
+	)
+	(port
+		(pt 168 80)
+		(output)
+		(text "HEX3" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX3" (rect 114 75 147 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 80)(pt 152 80))
+	)
+	(port
+		(pt 168 96)
+		(output)
+		(text "HEX4" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX4" (rect 114 91 147 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 96)(pt 152 96))
+	)
+	(port
+		(pt 168 112)
+		(output)
+		(text "HEX5" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX5" (rect 114 107 147 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 112)(pt 152 112))
+	)
+	(port
+		(pt 168 128)
+		(output)
+		(text "HEX6" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HEX6" (rect 114 123 147 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 128)(pt 152 128))
+	)
+	(port
+		(pt 168 144)
+		(output)
+		(text "Buzzer" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "Buzzer" (rect 109 139 147 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 168 144)(pt 152 144))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 208))
+	)
+)

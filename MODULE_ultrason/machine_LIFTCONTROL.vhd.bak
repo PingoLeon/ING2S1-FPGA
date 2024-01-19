@@ -1,0 +1,59 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity machine_LIFTCONTROL is
+    Port (	
+        -- Entree de la Clock et du Reset
+        i_Clock          : in std_logic;
+        i_Reset          : in std_logic;
+
+        -- Entree du binary_to_bcd
+        i_Tens           : in std_logic_vector(3 downto 0);
+        i_Hundreds       : in std_logic_vector(3 downto 0);
+
+        -- Entree pour arret immediat
+        i_Key0           : in std_logic;
+        i_Key1           : in std_logic;
+
+        -- Sorties pour Controle de la porte
+        o_OpenDoors      : out std_logic;
+        o_CloseDoors     : out std_logic;
+        o_Buzzer         : out std_logic
+    );
+end machine_LIFTCONTROL;
+
+architecture Behavioral of machine_LIFTCONTROL is
+    signal door_control_mux : std_logic;
+
+begin
+    process(i_Tens, i_Hundreds)
+    begin
+        -- Init. des valeurs
+        door_control_mux <= '0';  -- Fermeture des portes par defaut
+		  o_OpenDoors <= '0';
+		  o_CloseDoors <= '0';
+        --o_Buzzer <= '0';  			 -- Pas d'arret immediat par defaut
+
+        -- Conditions pour controle de la porte
+        if i_Hundreds = "0000" and i_Tens < "0101" then
+			 door_control_mux <= '1';  -- Open the doors
+		  else
+		    door_control_mux <= '0';
+		  end if;
+
+
+        if door_control_mux = '0' then
+            o_CloseDoors <= '1';  -- Fermeture des portes
+				o_OpenDoors <= '0';
+        else
+            o_OpenDoors <= '1';   -- Ouverture des portes
+				o_CloseDoors <= '0';
+        end if;
+
+        -- Arret immediat (Emergency stop)
+        --if i_Key0 = '1' and i_Key1 = '1' then
+        --    o_Buzzer <= '1';
+        --end if;
+    end process;
+end Behavioral;

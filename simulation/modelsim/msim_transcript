@@ -1,0 +1,56 @@
+# Reading pref.tcl
+# do PROJET_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/SoftEcole/intelFPGA_lite/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/SoftEcole/intelFPGA_lite/PROJECTS/TP5/MODULE_A2/A2LED.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:23 on Nov 05,2023
+# vcom -reportprogress 300 -93 -work work C:/SoftEcole/intelFPGA_lite/PROJECTS/TP5/MODULE_A2/A2LED.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity A2LED
+# -- Compiling architecture BEHAVIOR of A2LED
+# End time: 23:21:23 on Nov 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.a2led
+# vsim work.a2led 
+# Start time: 23:21:27 on Nov 05,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.a2led(behavior)
+add wave -position end  sim:/a2led/clock
+add wave -position end  sim:/a2led/B1
+add wave -position end  sim:/a2led/CLK5
+add wave -position end  sim:/a2led/LED
+force -freeze sim:/a2led/clock 1 0, 0 {5 ps} -r 10ps
+run
+force -freeze sim:/a2led/B1 1 0
+run
+force -freeze sim:/a2led/B1 à 0
+# ** UI-Msg: (vsim-4026) Value "ã" does not represent a literal of the enumeration type.
+# ** UI-Msg: (vsim-4011) Invalid force value: à 0.
+# 
+force -freeze sim:/a2led/B1 0 0
+run
+force -freeze sim:/a2led/B1 1 0
+run
+force -freeze sim:/a2led/B1 0 0
+run
+run
+force -freeze sim:/a2led/B1 1 0
+run
+force -freeze sim:/a2led/B1 0 0
+run
+# End time: 23:39:40 on Nov 05,2023, Elapsed time: 0:18:13
+# Errors: 0, Warnings: 0

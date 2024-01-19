@@ -1,0 +1,157 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 592 248)
+	(text "hello_adc" (rect 269 -1 305 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 232 20 244)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "adc_control_core_command_valid" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_command_valid" (rect 4 61 184 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 224 72)(line_width 1))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "adc_control_core_command_channel[4..0]" (rect 0 0 172 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_command_channel[4..0]" (rect 4 77 232 88)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 224 88)(line_width 3))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "adc_control_core_command_startofpacket" (rect 0 0 173 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_command_startofpacket" (rect 4 93 232 104)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 224 104)(line_width 1))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "adc_control_core_command_endofpacket" (rect 0 0 169 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_command_endofpacket" (rect 4 109 220 120)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 224 120)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 165 46 176)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 224 176)(line_width 1))
+	)
+	(port
+		(pt 0 216)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 205 82 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 224 216)(line_width 1))
+	)
+	(port
+		(pt 0 136)
+		(output)
+		(text "adc_control_core_command_ready" (rect 0 0 145 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_command_ready" (rect 4 125 184 136)(font "Arial" (font_size 8)))
+		(line (pt 0 136)(pt 224 136)(line_width 1))
+	)
+	(port
+		(pt 592 72)
+		(output)
+		(text "adc_control_core_response_valid" (rect 0 0 135 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_response_valid" (rect 421 61 607 72)(font "Arial" (font_size 8)))
+		(line (pt 592 72)(pt 368 72)(line_width 1))
+	)
+	(port
+		(pt 592 88)
+		(output)
+		(text "adc_control_core_response_channel[4..0]" (rect 0 0 168 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_response_channel[4..0]" (rect 381 77 615 88)(font "Arial" (font_size 8)))
+		(line (pt 592 88)(pt 368 88)(line_width 3))
+	)
+	(port
+		(pt 592 104)
+		(output)
+		(text "adc_control_core_response_data[11..0]" (rect 0 0 156 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_response_data[11..0]" (rect 396 93 618 104)(font "Arial" (font_size 8)))
+		(line (pt 592 104)(pt 368 104)(line_width 3))
+	)
+	(port
+		(pt 592 120)
+		(output)
+		(text "adc_control_core_response_startofpacket" (rect 0 0 169 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_response_startofpacket" (rect 378 109 612 120)(font "Arial" (font_size 8)))
+		(line (pt 592 120)(pt 368 120)(line_width 1))
+	)
+	(port
+		(pt 592 136)
+		(output)
+		(text "adc_control_core_response_endofpacket" (rect 0 0 166 12)(font "Arial" (font_size 8)))
+		(text "adc_control_core_response_endofpacket" (rect 382 125 604 136)(font "Arial" (font_size 8)))
+		(line (pt 592 136)(pt 368 136)(line_width 1))
+	)
+	(port
+		(pt 592 176)
+		(output)
+		(text "clock_bridge_out_clk_clk" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "clock_bridge_out_clk_clk" (rect 466 165 610 176)(font "Arial" (font_size 8)))
+		(line (pt 592 176)(pt 368 176)(line_width 1))
+	)
+	(drawing
+		(text "adc_control_core_command" (rect 61 43 266 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 229 67 488 144)(font "Arial" (color 0 0 0)))
+		(text "channel" (rect 229 83 500 176)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 229 99 536 208)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 229 115 524 240)(font "Arial" (color 0 0 0)))
+		(text "ready" (rect 229 131 488 272)(font "Arial" (color 0 0 0)))
+		(text "adc_control_core_response" (rect 369 43 888 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 345 67 720 144)(font "Arial" (color 0 0 0)))
+		(text "channel" (rect 333 83 708 176)(font "Arial" (color 0 0 0)))
+		(text "data" (rect 347 99 718 208)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 308 115 694 240)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 313 131 692 272)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 209 147 436 307)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 229 171 476 352)(font "Arial" (color 0 0 0)))
+		(text "clock_bridge_out_clk" (rect 369 147 858 307)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 353 171 724 352)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 195 187 420 387)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 229 211 500 432)(font "Arial" (color 0 0 0)))
+		(text " hello_adc " (rect 549 232 1164 474)(font "Arial" ))
+		(line (pt 224 32)(pt 368 32)(line_width 1))
+		(line (pt 368 32)(pt 368 232)(line_width 1))
+		(line (pt 224 232)(pt 368 232)(line_width 1))
+		(line (pt 224 32)(pt 224 232)(line_width 1))
+		(line (pt 225 52)(pt 225 140)(line_width 1))
+		(line (pt 226 52)(pt 226 140)(line_width 1))
+		(line (pt 367 52)(pt 367 140)(line_width 1))
+		(line (pt 366 52)(pt 366 140)(line_width 1))
+		(line (pt 225 156)(pt 225 180)(line_width 1))
+		(line (pt 226 156)(pt 226 180)(line_width 1))
+		(line (pt 367 156)(pt 367 180)(line_width 1))
+		(line (pt 366 156)(pt 366 180)(line_width 1))
+		(line (pt 225 196)(pt 225 220)(line_width 1))
+		(line (pt 226 196)(pt 226 220)(line_width 1))
+		(line (pt 0 0)(pt 592 0)(line_width 1))
+		(line (pt 592 0)(pt 592 248)(line_width 1))
+		(line (pt 0 248)(pt 592 248)(line_width 1))
+		(line (pt 0 0)(pt 0 248)(line_width 1))
+	)
+)

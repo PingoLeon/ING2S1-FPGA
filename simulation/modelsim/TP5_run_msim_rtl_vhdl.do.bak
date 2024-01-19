@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/SoftEcole/intelFPGA_lite/PROJECTS/TP5/CLK5.vhd}
+vcom -93 -work work {C:/SoftEcole/intelFPGA_lite/PROJECTS/TP5/CLK1.vhd}
+vcom -93 -work work {C:/SoftEcole/intelFPGA_lite/PROJECTS/TP5/A2LED.vhd}
+
